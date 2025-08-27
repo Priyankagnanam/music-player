@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="MusicPlayer.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <a href="MusicPlayer Home Page.html">
+                <button class="hdbtn"><i class="fi fi-sr-arrow-small-left"><<</i></button>
+            </a>
+            <h3 class="p-now">Playing now</h3>
+            <a href="MusicPlayer.html">
+                <button class="hdbtn">↻</button>
+            </a>
+        </header>
+
+        <div class="player">
+            <div class="img-area">
+                <img id="Image" src="D:/ProjectImages/Pookal Pookum.jpg">
+            </div>
+            <div class="song-details">
+                <h1 class="name">Animation</h1>
+                <h3 class="artist">Coding</h3>
+            </div>
+            <div class="audioC">
+                <div class="song-timer">
+                    <span class="current-time">0:00</span>
+                    <span class="max-duration">0:00</span>
+                </div>
+                <div class="progress-area">
+                    <div class="progress-bar"></div>
+                    <audio id="main-audio" src="D:/Project Songs/Thanni Can.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btnC" id="fav">♡</button>
+                <button class="btnC" id="prev"><i class="fi fi-sr-rewind"><</i></button>
+                <button class="play-pause btnC">▷</button>
+                <button class="btnC" id="next"><i class="fi fi-sr-forward">></i></button>
+                <a href="Favourites.html">
+                    <button class="btnC" id="Count">❤️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="MusicPlayer.js"></script>
+</body>
+</html>

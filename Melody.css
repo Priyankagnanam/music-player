@@ -1,0 +1,45 @@
+body{
+    font-family: Arial,sans-serif;
+}
+
+
+
+#playlist{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#playlist li{
+    color: Orange;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+playlist li:hover{
+    background-color: #f0f0f0;
+}
+
+#album-art{
+    border-radius: 50%;
+    height: 100px;
+    width: 50px;
+}
+
+#playlist li:focus + #album-art{
+    display: block;
+}
+
+#audio{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#playlist li.active {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+
+  
